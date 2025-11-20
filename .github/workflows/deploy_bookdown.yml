@@ -8,6 +8,11 @@ on:
 
 name: renderbook
 
+permissions:
+  contents: write
+  pages: write
+  gh-pages: write
+
 jobs:
   bookdown:
     name: Render-Book
